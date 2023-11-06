@@ -1,0 +1,45 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: RGB(223, 207, 190);
+}
+caption {
+    caption-side: bottom;
+    text-align: right;
+}
+table {
+    border: 5px ridge black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+td, th {
+    border: 3px solid black;
+    padding: 15px;
+}
+tbody td {
+    background-color: white;
+}
+thead {
+    background: linear-gradient(to right, red, orange, yellow, blue, darkblue);
+    color: black;
+}
+th#night {
+    color: white;
+}
+tbody th {
+    background-color: lightskyblue;
+}
+table tbody >tr td:hover {
+    background-color: rgb(51, 239, 8);
+    color: white;
+    font-style: italic;
+}
+table tbody >tr td#busy:hover {
+    background-color: red;
+    font-weight: bolder;
+    color: black;
+}
+tfoot {
+    background-color: black;
+    color: white;
+}
